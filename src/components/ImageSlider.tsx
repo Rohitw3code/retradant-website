@@ -37,14 +37,6 @@ const ImageSlider = () => {
                     transition={{ duration: 0.8, delay: 0.5 }}
                     className="text-center text-white"
                   >
-                    <motion.img
-                      src="https://i.ibb.co/Ldw8jC5/ELECTRICAL-PRIVATE-LIMITED-01-removebg-preview.png"
-                      alt="Retardant Electrical"
-                      className="h-32 md:h-40 mx-auto mb-8"
-                      initial={{ scale: 0.8 }}
-                      animate={{ scale: 1 }}
-                      transition={{ duration: 0.5 }}
-                    />
                     <motion.h2
                       className="text-4xl md:text-5xl font-bold mb-4"
                       initial={{ opacity: 0, y: 20 }}

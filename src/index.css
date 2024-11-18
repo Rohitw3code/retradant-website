@@ -11,6 +11,13 @@ body {
   @apply bg-gradient-to-br from-industrial-dark via-industrial to-industrial-light bg-railway-pattern;
 }
 
+/* Vertical text */
+.vertical-text {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  transform: rotate(180deg);
+}
+
 /* Swiper custom styles */
 .swiper-button-next,
 .swiper-button-prev {
